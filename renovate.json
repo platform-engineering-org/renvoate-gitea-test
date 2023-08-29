@@ -1,0 +1,22 @@
+{
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+      "github>platform-engineering-org/.github"
+    ],
+    "regexManagers": [
+      {
+        "customType": "regex",
+        "fileMatch": [
+          "^gitea.txt$"
+        ],
+        "matchStrings": [
+          "freedroid/freedroid-src\"(?<currentValue>.*?)\"\\s"
+        ],
+        "packageNameTemplate": "freedroid/freedroid-src",
+        "depNameTemplate": "https://codeberg.org/freedroid/freedroid-src",
+        "currentValueTemplate": "master",
+        "datasourceTemplate": "gitea-tags"
+      }
+    ]
+  
+}
