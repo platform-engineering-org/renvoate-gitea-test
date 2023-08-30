@@ -15,7 +15,8 @@
       "packageNameTemplate": "freedroid/freedroid-src",
       "depNameTemplate": "https://codeberg.org/freedroid/freedroid-src",
       "currentValueTemplate": "master",
-      "datasourceTemplate": "gitea-tags"
+      "datasourceTemplate": "gitea-tags",
+      "versioning": "loose"
     }
   ]
 }
