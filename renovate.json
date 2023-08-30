@@ -12,7 +12,7 @@
       "matchStrings": [
         "^(?<depName>.*)=(?<currentValue>.*)$"
       ],
-      "packageNameTemplate": "https://codeberg.org/freedroid/freedroid-src",
+      "packageNameTemplate": "freedroid/freedroid-src",
       "depNameTemplate": "https://codeberg.org/freedroid/freedroid-src",
       "registryUrlTemplate": "https://codeberg.org",
       "datasourceTemplate": "gitea-tags"
