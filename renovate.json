@@ -10,9 +10,9 @@
         "^gitea.txt$"
       ],
       "matchStrings": [
-        "^(?<packageName>.*)=(?<currentValue>.*)$"
+        "^(?<depName>.*)=(?<currentValue>.*)$"
       ],
-      "packageNameTemplate": "freedroid/freedroid-src",
+      "depNameTemplate": "freedroid/freedroid-src",
       "registryUrlTemplate": "https://codeberg.org",
       "datasourceTemplate": "gitea-tags"
     }
